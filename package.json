@@ -1,0 +1,21 @@
+{
+  "name": "electron-message-box-demo",
+  "version": "1.0.0",
+  "description": "Minimal Electron dialog demo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:mac:zip": "electron-builder --mac zip"
+  },
+  "devDependencies": {
+    "electron": "^36.4.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.example.electronmessageboxdemo",
+    "productName": "Electron Message Box Demo",
+    "mac": {
+      "target": ["zip"]
+    }
+  }
+}
